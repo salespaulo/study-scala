@@ -7,7 +7,7 @@ Can looks little crazy idea I know.
 ### Ester Eggs
 I think use [github](http://www.github.com) to study scala without long texts, videos and boredom explanations.
 
-### Contribute
+#### Contribute
 It's not a hard work. It's make to be simple way `contribute-tobe-blessed`. Follow the steps...
 
 1. Open
@@ -34,10 +34,10 @@ git commit -m "$GIT_MSG_FIX"
 git push origin branch-to-fix-file-name-step1
 ```
 
-### How can I help you?
+#### How can I help you?
 I don't know... :(
 
-### How can you help me?
+#### How can you help me?
 Contribute with me.
 
 ### Nice
