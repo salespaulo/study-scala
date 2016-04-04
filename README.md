@@ -47,7 +47,7 @@ Contribute with me.
 * The test is a joke space. Enjoy :P
 * If you like the following code, is the same like me! :D 
 ```scala
-val me:BlessedForever = ContributeToBeBlessed.withoutReturn
+val me:BlessedForever = new BlessedForever().contribute
 ```
 
 ### Rage Quit
