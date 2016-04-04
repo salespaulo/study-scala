@@ -1,23 +1,29 @@
 # Study-Scala
 
-## First contact is annoyed but I sure that is a better way to lern scala.
+### First contact is annoyed but I sure that is a better way to lern scala.
 Hi, my name is `study-scala` and I propose a learning study with, and only with, code.
 Can looks little crazy idea I know.
 
-## Ester Eggs
+### Ester Eggs
 I think use [github](http://www.github.com) to study scala without long texts, videos and boredom explanations.
 
-# Contribute
+### Contribute
 It's not a hard work. It's make to be simple way `contribute-tobe-blessed`. Follow the steps...
+
 1. Open
+
 ```scala
 def Step1(file: String = "scala.script") = Source.fromFile(file).getLines.toList
 ```
+
 2. Change
+
 ```scala
 def Step1(file: String = "src/main/scala/org/ps/study/scala/scala.script") = Source.fromFile(file).getLines.toList
 ```
+
 3. Push
+
 ```shell
 git checkout master
 echo "* ... your change step is here ... *"
@@ -28,10 +34,10 @@ git commit -m "$GIT_MSG_FIX"
 git push origin branch-to-fix-file-name-step1
 ```
 
-# How can I help you?
+### How can I help you?
 I do know... :(
 
-# How can you help me?
+### How can you help me?
 Contribute with me.
 
 ### Nice
@@ -49,10 +55,9 @@ val me:BlessedForever = ContributeToBeBlessed.withoutReturn
 * Do not fret!
 * Love me or hate me.
 
-# Another-Idea
-## Study-Inglesh
-My inglesh is too bad, sorry, very sorry. But I wish learn more and why not.
-I think use [github](http://www.github.com) to study inglesh with pull requests.
+# Study-English
+My english is too bad, sorry, very sorry. But I wish learn more and why not.
+I think use [github](http://www.github.com) to study english with pull requests.
 Like this:
 1. Change the README.md and put your comments.
 2. I read them and response or try response them.
