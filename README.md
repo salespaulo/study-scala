@@ -35,7 +35,7 @@ git push origin branch-to-fix-file-name-step1
 ```
 
 ### How can I help you?
-I do know... :(
+I don't know... :(
 
 ### How can you help me?
 Contribute with me.
