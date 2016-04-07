@@ -1,10 +1,7 @@
-// package
-package org.ps.study.scala.script
-
 // study scala
 class StudyScala {
   // ## sintax and semantic
-  class SintaxAndSemantic {
+  //class SintaxAndSemantic {
     // # variables
     def variables = {
       // imutable
@@ -67,7 +64,39 @@ class StudyScala {
     // type inference -> val companionObject: CompanionObject
     val companionObject = CompanionObject.criarCompanionObject("paulo")
 
+    sealed class Atoa
+
+    object NAtoa extends Atoa
+
+    object YAtoa extends Atoa
     
-    
-  }
+    trait Trait {
+      val secret = "secret"
+
+      def execute(func: String => Unit): Unit
+
+      def executeImpl = {
+         execute(s => {
+           println(s)
+           val deepSecret = s"$secret _ deep_secret"
+           println(deepSecret)
+         });
+      }
+    }
+
+    sealed class ClassTrait extends Trait {
+      override def execute(func: String => Unit) = {
+        println("###### ..... processing....")
+        func("showing the secret...")
+      }
+    }
+
+    object ClassTrait extends ClassTrait
+
+    ClassTrait.executeImpl
+    ClassTrait.execute(println)
+
+  //}
 }
+
+new StudyScala()
